@@ -1,0 +1,34 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<!--
+`user-menu`
+show user info and handle auth operations
+
+@demo demo/index.html 
+-->
+
+<dom-module id="user-menu">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'user-menu',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'user-menu',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
